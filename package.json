@@ -2,9 +2,9 @@
   "name": "work-with-form-send-mail",
   "version": "1.0.0",
   "description": "NodeJS-Working-with-forms",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
