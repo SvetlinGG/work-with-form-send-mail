@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "NodeJS-Working-with-forms",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "start": "nodemon server.js"
   },
