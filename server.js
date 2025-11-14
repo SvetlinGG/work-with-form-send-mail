@@ -10,6 +10,9 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true}));
 
+// Serve the HTML form
+app.use(express.static('.'));
+
 // create SMTP transporter
 const transporter = nodemailer.createTransport({
     host: process.env.SMTP_HOST,
