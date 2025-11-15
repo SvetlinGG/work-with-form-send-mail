@@ -1,4 +1,5 @@
-import express from 'express'
+import express from 'express';
+import { Resend } from 'resend';
 
 
 const app = express();
